@@ -1,0 +1,10 @@
+git clone URL - clone a remote	
+git status - view the repositori status.
+git add . - add all files for commiting
+git commit -m "Commit message" - commit a massage
+git push - upgate the remote repo (iska ime i parola)
+
+
+
+git pull - upgate local repo from remote repo
+git reset HEAD <file> - remove <file> from changes to commit
