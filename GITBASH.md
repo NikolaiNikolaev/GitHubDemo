@@ -50,6 +50,6 @@ git reset HEAD <file> - remove <file> from changes to commit
 [repository-name].git                                           |	Set a repository’s origin branch to SSH|
     Inspection & Comparison
 |Command                                                        |	Description|
-|git **log**                                                        |	View changes|
-|git log –summary                                               |	View changes (detailed)|
+|git **log**                                                    |	View changes|
+|git log –summary                                               |	View changes (etailed)|
 |git diff [source branch] [target branch]                       |	Preview changes before merging|
