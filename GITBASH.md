@@ -6,7 +6,7 @@ git push - upgate the remote repo (iska ime i parola)
 
 
 
-git pull - upgate local repo from remote repo
+git **pull** - upgate local repo from remote repo
 git reset HEAD <file> - remove <file> from changes to commit
 
     Getting & Creating Projects
@@ -15,8 +15,8 @@ git reset HEAD <file> - remove <file> from changes to commit
 |git clone ssh://git@github.com/[username]/[repository-name].git| Create a local copy of a remote repository|
     Basic Snapshotting
 |Command                                                        |	Description|
-|git status                                                     |	Check status|
-|git add [file-name.txt]                                        |	Add a file to the staging area|
+|git **status**                                                     |	Check status|
+|git **add** [file-name.txt]                                        |	Add a file to the staging area|
 |git add -A                                                     |	Add all new and changed files to the staging area|
 |git commit -m “[commit message]”                               |	Commit changes|
 |git rm -r [file-name.txt]                                      |	Remove a file (or folder)|
@@ -38,7 +38,7 @@ git reset HEAD <file> - remove <file> from changes to commit
 |git stash clear                                                |	Remove all the stashed states
     Sharing & Updating Projects
 |Command                                                        |	Description|
-|git push origin [branch name]                                  |	Push a branch to your remote repository|
+|git **push** origin [branch name]                                  |	Push a branch to your remote repository|
 |git push -u origin [branch name]                               |	Push changes to remote repository (and remember the branch)|
 |git push                                                       |	Push changes to remote repository (remembered branch)|
 |git push origin –delete [branch name]                          |	Delete a remote branch|
@@ -50,6 +50,6 @@ git reset HEAD <file> - remove <file> from changes to commit
 [repository-name].git                                           |	Set a repository’s origin branch to SSH|
     Inspection & Comparison
 |Command                                                        |	Description|
-|git log                                                        |	View changes|
+|git **log**                                                        |	View changes|
 |git log –summary                                               |	View changes (detailed)|
 |git diff [source branch] [target branch]                       |	Preview changes before merging|
